@@ -1,0 +1,37 @@
+<mvc:View controllerName="demobas.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+        
+        <content>
+        <VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplay354"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="Address"
+			labelSpanXL="3"
+			labelSpanL="3"
+			labelSpanM="3"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<Label text="Name" />
+				<Text id="nameText" text="ABC" />
+				<Label text="Street/No." />
+				<Text text="1" />
+				<Label text="ZIP Code/City" />
+				<Text text="000000 Hyderabad" />
+				<Label text="Country" />
+				<Text id="countryText" text="India" />
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+        </content>
+    </Page>
+</mvc:View>
